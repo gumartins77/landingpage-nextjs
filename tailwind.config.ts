@@ -8,11 +8,18 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      colors: {
+        'primary-blue': '#106eb0',
+        'primary-orange': '#ec7000',
+        'primary-gray': '#33303e',
+        'second-gray': '#4e4b59',
+        'gray-phone': '#f4f4f4',
+        'txt-gray': '#7a7786',
+        'opacity-gray': 'rgba(100, 80, 57, 0.1)'
       },
+      backgroundImage: {
+        'img_bg_hero': 'url(../assets/bg-hero.jpg)'
+      }
     },
   },
   plugins: [],
